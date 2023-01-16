@@ -21,7 +21,7 @@ console.log(student);
 function func (x: string): string {
     return `Hej ${x}`
 }
-console.log(func(""));
+console.log(func("Gugge"));
 
 
 for (let i = 0; i < arr.length; i++) {
