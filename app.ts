@@ -7,11 +7,32 @@ type person = {
     age: number; 
     student: boolean;
 };
-const student: person [] = [
-    {
-        name: "Gugge",
-        age: 47, 
-        student: true,
-    };
+
+const student: person = {
     
+        name: "Gugge",
+        age: 72, 
+        student: false,
+    };
+
 console.log(student);
+
+
+function func (x: string): string {
+    return `Hej ${x}`
+}
+console.log(func(""));
+
+
+for (let i = 0; i < arr.length; i++) {
+    console.log(func(arr[i]));
+};
+
+
+
+
+
+
+
+
+
